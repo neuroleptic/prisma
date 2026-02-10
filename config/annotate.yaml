@@ -1,0 +1,22 @@
+# Configuration for annotate.ipynb
+# Copy this file and modify for your analysis
+
+# Input: Path to preprocessed h5ad file (output from preprocess.ipynb)
+input_file: "tma_processed.h5ad"
+
+# Output directory for plots and annotations
+output_dir: "."
+
+# Output file naming
+output_prefix: "human_tma"
+
+# Marker panel files (CSV with columns: gene, cell_type/cell_state, notes)
+panels:
+  cell_type: "panels/cell_type_markers_human.csv"
+  cell_state: "panels/cell_state_markers_human.csv"
+  gbm_subtype: "panels/gbm_subtype_markers_human.csv"
+
+# Annotation parameters
+# min_score: Minimum score required for annotation (set to null to disable)
+# If highest score is below this threshold, annotation will be "Unclassified"
+min_score: 0.1

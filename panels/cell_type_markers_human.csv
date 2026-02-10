@@ -1,0 +1,84 @@
+gene,cell_type
+PVALB,Inhibitory Neurons
+SST,Inhibitory Neurons
+NELL2,Excitatory Neurons
+PCP4,Excitatory Neurons
+PDGFRA,OPCs
+VCAN,OPCs
+ERBB3,Oligodendrocytes
+S100B,Astrocytes
+SLC1A3,Astrocytes
+SOX9,Astrocytes
+VWF,Vascular Cells
+FLT1,Vascular Cells
+SELE,Vascular Cells
+PDGFRB,Vascular Cells
+RGS5,Vascular Cells
+DCN,Vascular Cells
+FBLN1,Vascular Cells
+ID1,Neural Stem Cells
+NOTCH1,Neural Stem Cells
+AIF1,Microglia
+CX3CR1,Microglia
+TREM2,Microglia
+CD68,Microglia
+APOE,Microglia
+CCL4,Microglia
+CD86,Microglia
+FASLG,Microglia
+IFITM3,Microglia
+ITGAM,Microglia
+ITGAX,Microglia
+PTPRC,Microglia
+RGS16,Microglia
+TGFB1,Microglia
+CD8A,CD8+ T Cells
+CD8B,CD8+ T Cells
+GZMA,CD8+ T Cells
+GZMB,CD8+ T Cells
+GZMK,CD8+ T Cells
+PRF1,CD8+ T Cells
+CD4,CD4+ T Cells
+FOXP3,Regulatory T Cells 
+IL2RA,Regulatory T Cells 
+CTLA4,Regulatory T Cells 
+PDCD1,Exhausted T Cells 
+TIGIT,Exhausted T Cells 
+TOX,Exhausted T Cells 
+ENTPD1,Exhausted T Cells 
+LAG3,Exhausted T Cells 
+CCR2,Tumor-Associated Macrophages
+CD68,Tumor-Associated Macrophages
+CD163,Tumor-Associated Macrophages
+CD14,Tumor-Associated Macrophages
+MRC1,Tumor-Associated Macrophages
+ARG1,Tumor-Associated Macrophages
+IL10,Tumor-Associated Macrophages
+TGFB1,Tumor-Associated Macrophages
+EGFR,Glioblastoma (Cancer cells)
+CD44,Glioblastoma (Cancer cells)
+CAV1,Glioblastoma (Cancer cells)
+ANXA1,Glioblastoma (Cancer cells)
+AIF1,Glioblastoma (TME)
+CCL5,Glioblastoma (TME)
+CD14,Glioblastoma (TME)
+CD163,Glioblastoma (TME)
+CD2,Glioblastoma (TME)
+CD4,Glioblastoma (TME)
+CD68,Glioblastoma (TME)
+CD83,Glioblastoma (TME)
+CORO1A,Glioblastoma (TME)
+CTSS,Glioblastoma (TME)
+CX3CR1,Glioblastoma (TME)
+CXCR4,Glioblastoma (TME)
+FCGR1A,Glioblastoma (TME)
+FCGR3A,Glioblastoma (TME)
+GNLY,Glioblastoma (TME)
+GPR183,Glioblastoma (TME)
+GPR34,Glioblastoma (TME)
+GZMA,Glioblastoma (TME)
+IDO1,Glioblastoma (TME)
+IL7R,Glioblastoma (TME)
+KLRB1,Glioblastoma (TME)
+NKG7,Glioblastoma (TME)
+TRAC,Glioblastoma (TME)

@@ -1,0 +1,30 @@
+# Configuration for preprocess.ipynb
+# Copy this file and modify for your analysis
+
+# Input: List of sample names (must match .h5ad filenames in input_dir)
+sample_names:
+  - "core_01"
+  - "core_02"
+  - "core_03"
+
+# Input/Output directories
+input_dir: "./datasets/tma/good_cores/human_tma"
+output_dir: "."
+
+# Output file naming
+output_prefix: "human_tma"
+
+# Preprocessing parameters
+preprocessing:
+  min_counts_per_cell: 20
+  min_cells_per_gene: 5
+  normalize_target_sum: 10000
+  scale_max_value: 10
+
+# PCA parameters
+pca:
+  min_pcs: 10  # Minimum number of PCs to use (set to null to use auto-calculated value)
+
+# Clustering parameters
+clustering:
+  leiden_resolution: 1
