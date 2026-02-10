@@ -3,16 +3,26 @@
 
 # Input: List of sample names (must match .h5ad filenames in input_dir)
 sample_names:
+  # - "human_gbm"
   - "core_01"
-  - "core_02"
   - "core_03"
+  - "core_06"
+  - "core_08"
+  - "core_09"
+  - "core_11"
+  - "core_12"
+  - "core_14"
+  - "core_15"
+
 
 # Input/Output directories
-input_dir: "./datasets/tma/good_cores/human_tma"
+# input_dir: "."
+input_dir: "./datasets/tma/good_cores/cp18_tma_1"
 output_dir: "."
 
 # Output file naming
-output_prefix: "human_tma"
+# output_prefix: "human_gbm"
+output_prefix: "tma"
 
 # Preprocessing parameters
 preprocessing:
@@ -24,6 +34,7 @@ preprocessing:
 # PCA parameters
 pca:
   min_pcs: 10  # Minimum number of PCs to use (set to null to use auto-calculated value)
+  # min_pcs: null 
 
 # Clustering parameters
 clustering:

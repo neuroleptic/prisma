@@ -2,13 +2,16 @@
 # Copy this file and modify for your analysis
 
 # Input: Path to preprocessed h5ad file (output from preprocess.ipynb)
+# input_file: "human_gbm_processed.h5ad"
 input_file: "tma_processed.h5ad"
 
 # Output directory for plots and annotations
 output_dir: "."
 
 # Output file naming
-output_prefix: "human_tma"
+# output_prefix: "human_gbm"
+output_prefix: "tma"
+
 
 # Marker panel files (CSV with columns: gene, cell_type/cell_state, notes)
 panels:

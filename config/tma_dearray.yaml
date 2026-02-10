@@ -2,17 +2,17 @@
 # Copy this file and modify for your analysis
 
 # Input: Path to h5ad file with spatial coordinates
-input_file: "human_tma.h5ad"
+input_file: "/scratch/ncostigan/tma/cp18_tma_1.h5ad"
 
 # Output directory for cores and plots
 output_dir: "./datasets/tma"
 
 # Output file naming
-output_prefix: "human_tma"
+output_prefix: "cp18_tma_1"
 
 # HDBSCAN clustering parameters
 hdbscan:
-  expected_num_cores: 12
+  expected_num_cores: 17
   min_samples: 10
   cluster_selection_epsilon: 0
 
