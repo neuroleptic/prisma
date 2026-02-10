@@ -1,0 +1,40 @@
+name: prisma
+channels:
+  - bioconda
+  - conda-forge
+  - nvidia
+  - rapidsai
+dependencies:
+  - cuda-version=12.9
+  - cudnn
+  - cusparselt
+  - cutensor
+  - hdbscan=0.8.41
+  - jupyterlab
+  - pip
+  - python=3.13
+  - rapids=25.8
+  - scikit-learn=1.7
+  - pip:
+    - anndata==0.12.6
+    - decoupler==2.1.2
+    - docrep==0.3.2
+    - filelock==3.20.0
+    - gdown==5.2.0
+    - inflect==7.5.0
+    - legendkit==0.3.6
+    - marsilea==0.5.6
+    - more-itertools==10.8.0
+    - omnipath==1.0.12
+    - patsy==1.0.2
+    - pynndescent==0.5.13
+    - rapids_singlecell==0.13.4
+    - scanpy==1.11.5
+    - scikit-misc==0.5.2
+    - scipy==1.15.3
+    - seaborn==0.13.2
+    - session-info2==0.2.3
+    - statsmodels==0.14.5
+    - typeguard==4.4.4
+    - umap-learn==0.5.9.post2
+    - wget==3.2
