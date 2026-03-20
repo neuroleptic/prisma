@@ -163,35 +163,41 @@ class CoreSeparator:
         
         return self.results['gmm']
     
-    def fit_lda(self) -> Dict:
+    def fit_lda(self, use_density=True, kde_bandwidth=20, lda_solver='lsqr', lda_shrinkage=None) -> Dict:
         """
-        Fit Linear Discriminant Analysis for optimal linear boundary, using spatial coordinates and local density as features.
+        Fit Linear Discriminant Analysis for optimal linear boundary, using spatial coordinates and optionally local density as features.
+            Parameters:
+                use_density (bool): Whether to include density as a feature.
+                kde_bandwidth (float): Bandwidth for KernelDensity.
+                lda_solver (str): Solver for LDA ('lsqr', 'eigen', 'svd').
+                lda_shrinkage (float or 'auto' or None): Shrinkage for LDA regularization.
         """
         # Combine data
         X_spatial = np.vstack([self.coords1, self.coords2])
         y = np.array([0] * len(self.coords1) + [1] * len(self.coords2))
 
-        # Compute local density for each cell using KernelDensity
-        from sklearn.neighbors import KernelDensity
-        kde = KernelDensity(bandwidth=20).fit(X_spatial)
-        density = np.exp(kde.score_samples(X_spatial)).reshape(-1, 1)
-
-        # Add density as a feature
-        X = np.hstack([X_spatial, density])
+        # Compute local density for each cell using KernelDensity if enabled
+        if use_density:
+            from sklearn.neighbors import KernelDensity
+            kde = KernelDensity(bandwidth=kde_bandwidth).fit(X_spatial)
+            density = np.exp(kde.score_samples(X_spatial)).reshape(-1, 1)
+            X = np.hstack([X_spatial, density])
+        else:
+            X = X_spatial
 
         # Standardize
         self.scaler = StandardScaler()
         X_scaled = self.scaler.fit_transform(X)
 
-        # Fit LDA
-        self.lda = LinearDiscriminantAnalysis()
+        # Fit LDA with options
+        self.lda = LinearDiscriminantAnalysis(solver=lda_solver, shrinkage=lda_shrinkage)
         self.lda.fit(X_scaled, y)
 
         # Get accuracy
         accuracy = self.lda.score(X_scaled, y)
+        print(f"LDA accuracy: {accuracy:.2%} | use_density={use_density} | kde_bandwidth={kde_bandwidth} | solver={lda_solver} | shrinkage={lda_shrinkage}")
 
         # Extract line coefficients in original space (for spatial only)
-        # Only use the first two coefficients for spatial boundary
         w_scaled = self.lda.coef_[0][:2]
         w_original = w_scaled / self.scaler.scale_[:2]
 
@@ -212,7 +218,11 @@ class CoreSeparator:
             'accuracy': accuracy,
             'centroid1': centroid1,
             'centroid2': centroid2,
-            'midpoint': midpoint
+            'midpoint': midpoint,
+            'use_density': use_density,
+            'kde_bandwidth': kde_bandwidth,
+            'lda_solver': lda_solver,
+            'lda_shrinkage': lda_shrinkage
         }
 
         return self.results['lda']
@@ -349,14 +359,19 @@ class CoreSeparator:
             confidence = np.maximum(p1, p2)
             
         elif method == 'lda':
+            # Optionally allow feature toggling and bandwidth for prediction
             if not hasattr(self, 'lda'):
                 self.fit_lda()
-            # Add density as a feature for prediction
-            from sklearn.neighbors import KernelDensity
+            use_density = getattr(self, 'results', {}).get('lda', {}).get('use_density', True)
+            kde_bandwidth = getattr(self, 'results', {}).get('lda', {}).get('kde_bandwidth', 20)
             coords = self.coords
-            kde = KernelDensity(bandwidth=20).fit(coords)
-            density = np.exp(kde.score_samples(coords)).reshape(-1, 1)
-            X = np.hstack([coords, density])
+            if use_density:
+                from sklearn.neighbors import KernelDensity
+                kde = KernelDensity(bandwidth=kde_bandwidth).fit(coords)
+                density = np.exp(kde.score_samples(coords)).reshape(-1, 1)
+                X = np.hstack([coords, density])
+            else:
+                X = coords
             X_scaled = self.scaler.transform(X)
             pred_labels = self.lda.predict(X_scaled)
             predictions = np.where(pred_labels == 0, self.core1_id, self.core2_id)
