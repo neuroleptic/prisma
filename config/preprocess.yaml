@@ -4,25 +4,27 @@
 # Input: List of sample names (must match .h5ad filenames in input_dir)
 sample_names:
   # - "human_gbm"
-  - "core_01"
-  - "core_03"
-  - "core_06"
-  - "core_08"
-  - "core_09"
-  - "core_11"
-  - "core_12"
-  - "core_14"
-  - "core_15"
+  - "mouse_brain_healthy"
+  # - "core_01"
+  # - "core_03"
+  # - "core_06"
+  # - "core_08"
+  # - "core_09"
+  # - "core_11"
+  # - "core_12"
+  # - "core_14"
+  # - "core_15"
 
 
 # Input/Output directories
-# input_dir: "."
-input_dir: "./datasets/tma/good_cores/cp18_tma_1"
+input_dir: "."
+# input_dir: "./datasets/tma/good_cores/cp18_tma_1"
 output_dir: "."
 
 # Output file naming
 # output_prefix: "human_gbm"
-output_prefix: "tma"
+output_prefix: "mouse_brain_healthy"
+# output_prefix: "tma"
 
 # Preprocessing parameters
 preprocessing:
@@ -39,3 +41,9 @@ pca:
 # Clustering parameters
 clustering:
   leiden_resolution: 1
+
+# Plot settings
+# display_plots: Whether to display plots inline in the notebook (set to false to only save to disk)
+display_plots: true
+# save_svg: Whether to also save plots as SVG files
+save_svg: true

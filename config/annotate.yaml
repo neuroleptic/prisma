@@ -3,23 +3,36 @@
 
 # Input: Path to preprocessed h5ad file (output from preprocess.ipynb)
 # input_file: "human_gbm_processed.h5ad"
-input_file: "tma_processed.h5ad"
+input_file: "mouse_brain_healthy_processed.h5ad"
+# input_file: "tma_processed.h5ad"
 
 # Output directory for plots and annotations
 output_dir: "."
 
 # Output file naming
 # output_prefix: "human_gbm"
-output_prefix: "tma"
+output_prefix: "mouse_brain_healthy"
+# output_prefix: "tma"
 
 
 # Marker panel files (CSV with columns: gene, cell_type/cell_state, notes)
 panels:
-  cell_type: "panels/cell_type_markers_human.csv"
-  cell_state: "panels/cell_state_markers_human.csv"
-  gbm_subtype: "panels/gbm_subtype_markers_human.csv"
+  # cell_type: "panels/cell_type_markers_human.csv"
+  # cell_state: "panels/cell_state_markers_human.csv"
+  # gbm_subtype: "panels/gbm_subtype_markers_human.csv"
+  # immuno_oncology: "panels/immuno_oncology_human.csv"
+  cell_type: "panels/cell_type_mouse_pre-designed.csv"
+  cell_state: "panels/cell_state_markers_mouse.csv"
+  # gbm_subtype: "panels/gbm_subtype_markers_mouse.csv"
+  cell_pathway: "panels/cell_pathway_mouse_pre-designed.csv"
 
 # Annotation parameters
 # min_score: Minimum score required for annotation (set to null to disable)
 # If highest score is below this threshold, annotation will be "Unclassified"
 min_score: 0.1
+
+# Plot settings
+# display_plots: Whether to display plots inline in the notebook (set to false to only save to disk)
+display_plots: false
+# save_svg: Whether to also save plots as SVG files
+save_svg: true
