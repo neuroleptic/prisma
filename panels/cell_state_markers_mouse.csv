@@ -1,0 +1,12 @@
+gene,cell_state
+Mki67,Proliferation
+Top2a,Proliferation
+Myc,Proliferation
+Cdk6,Proliferation
+Mmp2,Migration
+Loxl2,Migration
+Cd44,Migration
+Vegfa,Angiogenesis
+Bhlhe40,Angiogenesis
+Kdr,Hypoxia
+Pecam1,Hypoxia
