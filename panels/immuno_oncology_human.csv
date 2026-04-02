@@ -1,0 +1,653 @@
+gene,immuno_oncology
+ACE2,Hormone Processing
+ACTA2,Stromal Cell
+ACTB,Cytoskeleton
+ADAM28,B cell
+AIF1,Macrophage
+AIRE,T Cell
+AIRE,Thymus
+AKT1,Cancer Signalling
+ANPEP,Tumor
+ANXA1,Receptor Ligand
+AREG,Mast Cell
+ARG1,Myeloid Derived Suppressor Cell
+ARID1A,Tumor
+ATM,DNA Damage
+BANK1,B Cell
+BATF3,T Cell
+BCL2,Apoptosis
+BRAF,Proto-Oncogene
+C1QB,Monocyte
+C1QB,Complement
+C1QBP,Tumorigenesis
+C1QBP,Complement
+C1R,Tumor
+C1R,Complement
+C1S,Tumor
+C1S,Complement
+CCL11,Cytokines & Growth Factors
+CCL11,Chemokine Ligand
+CCL11,Cytokine-Cytokine-Receptor Interaction
+CCL13,Cytokines & Growth Factors
+CCL13,Chemokine Ligand
+CCL13,Cytokine-Cytokine-Receptor Interaction
+CCL14,Cytokines & Growth Factors
+CCL14,Chemokine Ligand
+CCL14,Cytokine-Cytokine-Receptor Interaction
+CCL15,Cytokines & Growth Factors
+CCL15,Chemokine Ligand
+CCL15,Cytokine-Cytokine-Receptor Interaction
+CCL16,Cytokines & Growth Factors
+CCL16,Chemokine Ligand
+CCL16,Cytokine-Cytokine-Receptor Interaction
+CCL19,Cytokines & Growth Factors
+CCL19,Chemokine Ligand
+CCL19,Cytokine-Cytokine-Receptor Interaction
+CCL2,Cytokines & Growth Factors
+CCL2,Chemokine Ligand
+CCL2,Cytokine-Cytokine-Receptor Interaction
+CCL20,Cytokines & Growth Factors
+CCL20,Chemokine Ligand
+CCL20,Cytokine-Cytokine-Receptor Interaction
+CCL21,Cytokines & Growth Factors
+CCL21,Chemokine Ligand
+CCL21,Cytokine-Cytokine-Receptor Interaction
+CCL26,Cytokines & Growth Factors
+CCL26,Chemokine Ligand
+CCL26,Cytokine-Cytokine-Receptor Interaction
+CCL28,Cytokines & Growth Factors
+CCL28,Chemokine Ligand
+CCL28,Cytokine-Cytokine-Receptor Interaction
+CCL3,T Cell
+CCL3,Effector Memory
+CCL3,Resident Memory
+CCL3,Activated
+CCL3,Cytokines & Growth Factors
+CCL3,Chemokine Ligand
+CCL3,Cytokine-Cytokine-Receptor Interaction
+CCL3L1,Cytokines & Growth Factors
+CCL3L1,Chemokine Ligand
+CCL3L1,Cytokine-Cytokine-Receptor Interaction
+CCL4,T Cell
+CCL4,Effector Memory
+CCL4,Resident Memory
+CCL4,Activated
+CCL4,Cytokines & Growth Factors
+CCL4,Chemokine Ligand
+CCL4,Cytokine-Cytokine-Receptor Interaction
+CCL5,T Cell
+CCL5,Effector Memory
+CCL5,Resident Memory
+CCL5,Activated
+CCL5,Cytokines & Growth Factors
+CCL5,Chemokine Ligand
+CCL5,Cytokine-Cytokine-Receptor Interaction
+CCL7,Cytokines & Growth Factors
+CCL7,Chemokine Ligand
+CCL7,Cytokine-Cytokine-Receptor Interaction
+CCL8,Cytokines & Growth Factors
+CCL8,Chemokine Ligand
+CCL8,Cytokine-Cytokine-Receptor Interaction
+CCND1,Epithelial Cell
+CCR1,C-C Motif Chemokine Receptor
+CCR1,M1
+CCR1,Macrophage
+CCR1,Cytokine Receptor
+CCR1,CD Molecule
+CCR1,Cytokine-Cytokine-Receptor Interaction
+CCR2,C-C Motif Chemokine Receptor
+CCR2,M1
+CCR2,Macrophage
+CCR2,Cytokine Receptor
+CCR2,CD Molecule
+CCR2,Cytokine-Cytokine-Receptor Interaction
+CCR3,C-C Motif Chemokine Receptor
+CCR3,M1
+CCR3,Macrophage
+CCR3,Cytokine Receptor
+CCR3,CD Molecule
+CCR3,Cytokine-Cytokine-Receptor Interaction
+CCR4,C-C Motif Chemokine Receptor
+CCR4,M1
+CCR4,Macrophage
+CCR4,Cytokine Receptor
+CCR4,CD Molecule
+CCR4,Cytokine-Cytokine-Receptor Interaction
+CCR5,C-C Motif Chemokine Receptor
+CCR5,M1
+CCR5,Macrophage
+CCR5,Cytokine Receptor
+CCR5,CD Molecule
+CCR5,Cytokine-Cytokine-Receptor Interaction
+CCR6,C-C Motif Chemokine Receptor
+CCR6,M1
+CCR6,Macrophage
+CCR6,Cytokine Receptor
+CCR6,CD Molecule
+CCR6,Cytokine-Cytokine-Receptor Interaction
+CCR7,T Cell
+CCR7,Naive
+CCR7,C-C Motif Chemokine Receptor
+CCR7,M1
+CCR7,Macrophage
+CCR7,Cytokine Receptor
+CCR7,CD Molecule
+CCR7,Cytokine-Cytokine-Receptor Interaction
+CD14,Monocyte
+CD14,Macrophage
+CD14,M1
+CD14,CD Molecule
+CD163,Macrophage
+CD163,M2
+CD163,CD Molecule
+CD19,B Cell
+CD19,Proliferative
+CD19,CD Molecule
+CD1A,CD Molecule
+CD1A,Antigen Presentation
+CD1A,Dendritic Cell
+CD1C,CD Molecule
+CD1C,Antigen Presentation
+CD1C,Dendritic Cell
+CD2,T Cell
+CD2,CD Molecule
+CD247,Natural Killer Cell
+CD247,CD Molecule
+CD27,B Cell
+CD27,CD Molecule
+CD274,CD Molecule
+CD274,Tumor
+CD274,Checkpoint Inhibitor Target
+CD274,Don't Eat Me
+CD276,CD Molecule
+CD276,Tumor
+CD276,Checkpoint Inhibitor Target
+CD28,T Cell
+CD28,CD Molecule
+CD37,B Cell
+CD37,CD Molecule
+CD38,Plasma Cell
+CD38,CD Molecule
+CD3D,T Cell
+CD3D,CD8+
+CD3D,Effector
+CD3D,CD Molecule
+CD3E,CD Molecule
+CD3E,T Cell
+CD4,T Cell
+CD4,CD4+
+CD4,CD Molecule
+CD40,Dendritic Cell
+CD40,Myeloid
+CD40,CD Molecule
+CD40LG,CD Molecule
+CD40LG,Immune Checkpoint
+CD44,Macrophage
+CD44,M1
+CD44,CD Molecule
+CD47,CD Molecule
+CD47,Tumor
+CD47,Don't Eat Me
+CD68,Macrophage
+CD68,CD Molecule
+CD74,CD Molecule
+CD74,Macrophage
+CD79A,B Cell
+CD79A,Proliferative
+CD79A,Plasma Cell
+CD79A,CD Molecule
+CD79B,B Cell
+CD79B,Proliferative
+CD79B,CD Molecule
+CD80,Dendritic Cell
+CD80,Myeloid
+CD80,CD Molecule
+CD83,B Cell
+CD83,CD Molecule
+CD86,Macrophage
+CD86,M1
+CD86,CD Molecule
+CD8A,T Cell
+CD8A,CD8+
+CD8A,Lineage Marker
+CD8A,CD Molecule
+CD8B,T Cell
+CD8B,CD Molecule
+CDK1,Tumorigenesis
+CDK12,Tumorigenesis
+CDK2,Tumorigenesis
+CDK4,Tumorigenesis
+CDK6,Tumorigenesis
+CDKN1A,Macrophage
+CDKN1A,Phagocytosis
+CDKN1A,Immune Escape
+CDKN1A,Tumorigenesis
+CDKN1B,Macrophage
+CDKN1B,Phagocytosis
+CDKN1B,Immune Escape
+CDKN1B,Tumorigenesis
+CDKN1C,Tumorigenesis
+CDKN1C,Apoptosis
+CDKN1C,Cell Invasion
+CDKN1C,Metastasis
+CDKN2A,Macrophage
+CDKN2A,Phagocytosis
+CDKN2A,Immune Escape
+CDKN2A,Tumorigenesis
+CDKN2B,Macrophage
+CDKN2B,Phagocytosis
+CDKN2B,Immune Escape
+CDKN2B,Tumorigenesis
+CDKN2C,Macrophage
+CDKN2C,Phagocytosis
+CDKN2C,Immune Escape
+CDKN2C,Tumorigenesis
+CDKN2D,Macrophage
+CDKN2D,Phagocytosis
+CDKN2D,Immune Escape
+CDKN2D,Tumorigenesis
+CDX1,Epithelial Cell
+CDX1,Intestine
+CDX2,Epithelial Cell
+CDX2,Intestine
+CEACAM1,Tumor
+CEACAM1,Checkpoint Inhibitor
+CEACAM6,Epithelial Cell
+CEACAM8,Tumor
+CENPF,Cell Cycle Progression
+CENPV,Cell Division
+CFC1,Cancer Stemness
+CHIT1,Dendritic Cell
+CLEC10A,Dendritic Cell
+CLEC10A,Myeloid
+CLEC12A,Monocyte
+CLEC12A,Non-Classical
+CMKLR1,Angiogenesis
+CORO1A,T Cell
+CORO1A,Macrophage
+CORO1A,Apoptosis
+COTL1,Tumor Suppression
+CPA3,Mast Cell
+CSF1,Monocyte
+CSF1,Macrophage
+CSF1R,Monocyte
+CSF1R,Macrophage
+CST7,Natural Killer Cell
+CST7,T Cell
+CST7,CD8+
+CTLA4,T Cell
+CTLA4,Regulatory
+CTLA4,Exhausted
+CTLA4,Checkpoint
+CTNNB1,Tumorigenesis
+CTSD,Tumor
+CTSL,Metastasis
+CTSS,Tumor
+CTSW,Tumor
+CX3CR1,T Cell
+CX3CR1,Cancer Stemness
+CXCL1,Macrophage
+CXCL10,Immune Cell Migration
+CXCL10,Neutrophil
+CXCL10,Eosinophil
+CXCL10,Monoyte
+CXCL10,Epithelial Cell
+CXCL10,Stromal Cell
+CXCL10,Fibroblast
+CXCL11,Immune Cell Migration
+CXCL12,Tumor Suppression
+CXCL12,Growth
+CXCL12,Evasion
+CXCL13,T Cell
+CXCL13,Regulatory
+CXCL13,Chemokine
+CXCL14,Immune Cell Migration
+CXCL14,Dendritic Cell
+CXCL14,Chemokine
+CXCL16,Immune Cell Migration
+CXCL16,Natural Killer T Cell
+CXCL2,Epithelial Cell
+CXCL2,Tumor Differentiation
+CXCL3,Oncogene
+CXCL5,Macrophage
+CXCL5,Chemokine
+CXCL6,Immune Cell Migration
+CXCL6,Chemokine
+CXCL9,Immune Cell Migration
+CXCL9,Chemokine
+CXCR1,Immune Cell Migration
+CXCR2,Immune Cell Migration
+CXCR3,Immune Cell Migration
+CXCR4,Immune Cell Migration
+CXCR5,Immune Cell Migration
+CXCR5,Chemokine
+CXCR6,T Cell
+CXCR6,CD8+
+CXCR6,Effector Memory
+CXCR6,Resident Memory
+DCN,Fibroblast
+DCN,Lineage Marker
+DERL3,Plasma Cell
+DGKA,T Cell
+DGKA,Exhausted
+DMBT1,Tumor Suppression
+DUSP2,Tumorigenesis
+EGF,Macrophage
+EGF,M2
+EGF,Neutrophil
+EGF,N2
+EGFR,Epithelial Cell
+EGFR,Oncogene
+EGR3,Metastasis
+ENTPD1,T Cell
+ENTPD1,Inhibitory
+EOMES,T Cell
+EOMES,CD8+
+EPCAM,Tumorigenesis
+ERBB2,Oncogene
+ERBB3,Oncogene
+ERBB4,Oncogene
+ESR1,Oncogene
+FABP3,Dendritic Cell
+FADD,Apoptosis
+FADD,Tumorigenesis
+FAS,T Cell
+FASLG,T Cell
+FCER1A,Dendritic Cell
+FCER1A,Myeloid
+FCER2,TLS
+FCGR1A,Macrophage
+FCGR3A,Monocyte
+FCMR,B Cell
+FEZ1,Tumor Supression
+FGF2,Macrophage
+FGF2,M2
+FGF2,Neutrophil
+FGF2,N2
+FGR,Myeloid Cell
+FGR,Oncogene
+FHIT,Tumor Supression
+FKBP11,Plasma Cell
+FLT1,Macrophage
+FLT1,Tumorigenesis
+FLT1,Metastasis
+FLT3LG,Dendritic Cell
+FN1,Fibroblast
+FN1,Lineage Marker
+FOS,Proto-Oncogene
+FOXP3,T Cell
+FOXP3,Regulatory
+G0S2,Cell Division
+GATA2,Oncogene
+GATA3,T Cell
+GATA3,Innate Lymphoid Cell
+GATA3,ILC2
+GATA3,Naive
+GLIPR2,Macrophage
+GNLY,T Cell
+GNLY,CD8+
+GNLY,Effector
+GNLY,Cytotoxic
+GPR171,T Cell
+GPR183,T Cell
+GPR34,Dendritic Cell
+GZMA,T Cell
+GZMA,Naive
+GZMA,CD8+
+GZMB,T Cell
+GZMB,Effector
+GZMB,CD8+
+GZMH,T Cell
+GZMH,Naive
+GZMH,CD8+
+GZMK,T Cell
+GZMK,Effector
+GZMK,CD8+
+GZMK,Exhausted
+HAVCR2,T Cell
+HAVCR2,Exhausted
+HIF1A,Oncogene
+HPGDS,Mast Cell
+ICAM1,Oncogene
+ICOSLG,T Cell
+ICOSLG,Dendritic Cell
+ICOSLG,Oncogene
+ID1,Tumorigenesis
+ID2,Tumorigenesis
+ID4,Tumorigenesis
+IDO1,Myeloid Cell
+IDO1,Suppression
+IFIT2,Tumorigenesis
+IFIT2,Metastasis
+IFIT3,Tumorigenesis
+IFIT3,Metastasis
+IFITM3,Tumorigenesis
+IFNAR1,Immune Signalling
+IFNB1,Immune Signalling
+IFNGR1,Immune Signalling
+IFNL1,Immune Signalling
+IGFBP7,Oncogene
+IGHG1,Plasma Cell
+IGHG2,Plasma Cell
+IGHG3,Plasma Cell
+IGHG4,Plasmablast
+IGHGP,Plasma Cell
+IGHM,B Cell
+IGHM,Naive
+IGHM,Plasma Cell
+IGHM,Plasmablast
+IGKC,Plasma Cell
+IGKC,Plasmablast
+IGLC3,Plasmablast
+IL10,Immune Cell Regulation
+IL10RA,Immune Cell Regulation
+IL12B,Immune Cell Regulation
+IL12RB2,Immune Cell Regulation
+IL13,Immune Cell Regulation
+IL13,ILC2
+IL13RA2,Immune Cell Regulation
+IL15,Immune Cell Regulation
+IL15RA,Immune Cell Regulation
+IL18,Immune Checkpoint
+IL1A,Immune Cell Regulation
+IL1B,Immune Cell Regulation
+IL1B,Epithelial Cell
+IL1R1,Immune Cell Regulation
+IL1RAP,Immune Cell Regulation
+IL2,T Cell
+IL2,Activation
+IL2,Proliferation
+IL22RA1,Immune Cell Regulation
+IL22RA1,T Cell
+IL22RA2,Immune Cell Regulation
+IL22RA2,T Cell
+IL23A,Dendritic Cell
+IL23A,Tissue Repair
+IL2RA,T Cell
+IL2RA,Regulatory
+IL2RB,Immune Cell Regulation
+IL2RB,T Cell
+IL2RG,Immune Cell Regulation
+IL2RG,T Cell
+IL4,Macrophage
+IL4,Neutrophil
+IL4,Polarization
+IL4,T Cell
+IL4,Mast Cell
+IL4,Basophil
+IL4R,T Cell
+IL4R,Activation
+IL5,Innate Lymphoid Cell
+IL5,ILC2
+IL6,Immune Cell Regulation
+IL6,Neutrophil
+IL7R,T Cell
+IL7R,Survival
+IL7R,Memory
+IQGAP2,Natural Killer Cell
+IRF4,T Cell
+IRF4,Regulatory
+IRF8,Dendritic Cell
+IRF8,Plasmacytoid
+ITGA1,T Cell
+ITGA1,Resident Memory
+ITGAE,Dendritic Cell
+ITGAM,Monocyte
+ITGAM,Granulocyte
+ITGAM,Macrophage
+ITGAM,Natural Killer Cell
+ITGAM,T Cell
+JAK1,T Cell
+JAK2,T Cell
+JCHAIN,Plasma Cell
+JCHAIN,Plasmablast
+JUN,Proto-Oncogene
+JUNB,Proto-Oncogene
+KIT,Proto-Oncogene
+KLRB1,T Cell
+KLRB1,CD8+
+KLRB1,Naive
+KLRB1,Natural Killer Cell
+KLRD1,Natural Killer Cell
+KLRK1,Natural Killer Cell
+KRAS,Epithelial Cell
+KRAS,Oncogene
+LAG3,T Cell
+LAG3,Exhaustion
+LAG3,Immune Checkpoint
+LAMP2,Autophagy
+LILRA4,Dendritic Cell
+LILRA4,Plasmacytoid
+LILRA5,Monocyte
+LILRA5,Non-Classical
+LILRB2,Monocyte
+LILRB2,Non-Classical
+LILRB4,Dendritic Cell
+LILRB4,Plasmacytoid
+LTB,TNF Superfamily
+LUM,Fibroblast
+MARCO,Macrophage
+MCEMP1,Macrophage
+MET,Epithelial Cell
+MIS18BP1,Monocyte
+MIS18BP1,Non-Classical
+MKI67,B Cell
+MKI67,Proliferation
+MMP12,Dendritic Cell
+MMP12,Myeloid
+MMP9,Macrophage
+MMP9,Neutrophil
+MMP9,Polarization
+MPEG1,Dendritic Cell
+MPEG1,Plasmacytoid
+MS4A1,B Cell
+MS4A1,Lineage Marker
+MS4A1,Proliferation
+MS4A2,Mast Cell
+MUC5AC,Pit Mucous Cell
+MUC5AC,Lineage Marker
+MZB1,Plasma Cell
+MZB1,Plasmablast
+NCEH1,Megakarocyte
+NKG7,Natural Killer Cell
+NOTCH1,T Cell
+NOTCH1,Th2
+NOTCH2,T Cell
+NOTCH2,Th2
+NOTCH3,Pericyte
+NOTCH3,Lineage Marker
+NOTCH3,T Cell
+NOTCH3,Th1
+NT5E,T Cell
+NT5E,Inhibitory
+ORC6,Cell Division
+P2RX1,Mast Cell
+PDCD1,T Cell
+PDCD1,Exhausted
+PDCD1LG2,Immune Checkpoint
+PDGFRA,Stromal Cell
+PGA5,Chief Cell
+PGA5,Lineage Marker
+PLA2G7,Dendritic Cell
+PLD4,Dendritic Cell
+PLD4,Lineage Marker
+PLVAP,Endothelial Cell
+PLVAP,Lineage Marker
+PRDX4,Plasma Cell
+PRF1,T cell
+PRF1,EMRA
+PTGS1,Mast Cell
+REG4,Intestinal Cell
+REG4,Lineage Marker
+RGS5,Pericyte
+RNF43,Tumor
+RUNX3,Natural Killer Cell
+S100A9,Neutrophils
+S100B,Dendritic Cell
+S100B,Myeloid
+SAMD3,Natural Killer Cell
+SDC1,Plasma Cell
+SELL,B Cell
+SLC1A3,Dendritic Cell
+SMAD3,Natural Killer Cell
+SOCS1,Cytokine Signalling
+SOCS2,Cytokine Signalling
+SOCS3,Cytokine Signalling
+SOX9,Tumor
+SPIB,Dendritic Cell
+SPIB,Plasmacytoid
+SSR4,Plasma Cell
+STAT1,Immune Signalling
+STAT1,Macrophage
+STAT1,Th1
+STAT1,T Cell
+STAT2,Immune Signalling
+STAT3,Plasma Cell
+STAT3,T Cell
+STAT3,Regulatory
+STAT3,Th17
+STAT4,T Cell
+STAT4,Natural Killer Cell
+STAT5B,Immune Signalling
+STAT5B,T Cell
+STAT6,Immune Signalling
+STAT6,T Cell
+STMN1,B Cell
+STMN1,Proliferation
+SYK,Dendritic Cell
+SYK,Plasmacytoid
+TBX21,T Cell
+TBX21,Th1
+TCF7,T Cell
+TCF7,CD4+
+TCF7,Naive
+TCL1A,B cell
+TCL1A,Proliferative
+TFF3,Intestinal
+TFF3,Lineage Marker
+TGFB1,Macrophage
+TGFB1,Neutrophil
+TGFB1,Polarization
+TIGIT,T Cell
+TIGIT,Exhausted
+TMPRSS2,T Cell
+TNF,Macrophage
+TNF,Neutrophil
+TNFRSF13C,B Cell
+TNFRSF17,Plasma Cell
+TOX,T Cell
+TOX,Exhausted
+TP53,Proto-Oncogene
+TREM2,Dendritic Cell
+TUBB,Cytoskeleton
+UBE2C,Natural Killer Cell
+VCAN,Macrophage
+VCAN,M1
+VEGFA,Macrophage
+VEGFA,Neutrophil
+VEGFA,Oncogene
+VSIG4,Macrophage
+VSIR,Checkpoint
+XBP1,Plasmablast
+ZNF683,T Cell
+ZNF683,Resident Memory
